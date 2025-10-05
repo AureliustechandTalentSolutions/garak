@@ -1,0 +1,101 @@
+{
+  "name": "garak",
+  "fullName": "Garak - LLM Vulnerability Scanner",
+  "version": "0.13.1.pre1",
+  "description": "Generative AI Red-teaming & Assessment Kit - A comprehensive LLM vulnerability scanner that checks if an LLM can be made to fail in ways we don't want",
+  "type": "security_tool",
+  "category": "ai_security",
+  "tags": [
+    "llm",
+    "security",
+    "vulnerability-scanner",
+    "red-teaming",
+    "ai-safety",
+    "generative-ai",
+    "prompt-injection",
+    "jailbreak-detection",
+    "hallucination-detection",
+    "toxicity-detection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AureliustechandTalentSolutions/garak",
+    "upstream": "https://github.com/NVIDIA/garak"
+  },
+  "homepage": "https://garak.ai",
+  "documentation": "https://docs.garak.ai",
+  "license": "Apache-2.0",
+  "language": "Python",
+  "pythonVersion": ">=3.10",
+  "capabilities": [
+    "hallucination_detection",
+    "data_leakage_detection",
+    "prompt_injection_testing",
+    "misinformation_detection",
+    "toxicity_generation_testing",
+    "jailbreak_testing",
+    "security_vulnerability_scanning"
+  ],
+  "features": [
+    "Support for Hugging Face models",
+    "OpenAI API compatibility",
+    "Replicate integration",
+    "REST API support",
+    "Multiple probe categories",
+    "Automated vulnerability detection",
+    "Comprehensive reporting",
+    "Extensible plugin system"
+  ],
+  "deployment": {
+    "commandLine": true,
+    "requiresGPU": false,
+    "cloudReady": true,
+    "containerized": false
+  },
+  "integration": {
+    "apis": [
+      "OpenAI",
+      "Hugging Face",
+      "Replicate",
+      "REST"
+    ],
+    "inputFormats": [
+      "text",
+      "json"
+    ],
+    "outputFormats": [
+      "json",
+      "jsonl",
+      "text"
+    ]
+  },
+  "platform": {
+    "name": "Aurelius Federal Platform",
+    "category": "Resource Library",
+    "addedDate": "2025-01-01",
+    "status": "active"
+  },
+  "compliance": {
+    "securityTested": true,
+    "openSource": true,
+    "maintainedBy": "NVIDIA",
+    "communitySupport": true
+  },
+  "usage": {
+    "installation": "pip install garak",
+    "quickStart": "python -m garak --model_type openai --model_name gpt-3.5-turbo",
+    "documentation": "https://docs.garak.ai"
+  },
+  "contact": {
+    "maintainers": [
+      {
+        "name": "Leon Derczynski",
+        "email": "lderczynski@nvidia.com"
+      }
+    ],
+    "support": {
+      "discord": "https://discord.gg/uVch4puUCs",
+      "github": "https://github.com/NVIDIA/garak/issues"
+    }
+  }
+}
