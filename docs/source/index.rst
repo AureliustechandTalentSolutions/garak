@@ -39,6 +39,7 @@ Check out the :doc:`usage` section for further information, including :ref:`inst
    reporting
    translation
    ascii_smuggling
+   resource_library
    FAQ <https://github.com/NVIDIA/garak/blob/main/FAQ.md>
 
 .. toctree::

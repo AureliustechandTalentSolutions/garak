@@ -288,6 +288,10 @@ We have an FAQ [here](https://github.com/NVIDIA/garak/blob/main/FAQ.md). Reach o
 
 Code reference documentation is at [garak.readthedocs.io](https://garak.readthedocs.io/en/latest/).
 
+## Resource Library Integration
+
+Garak includes metadata for integration with resource libraries and platforms. See [RESOURCE_LIBRARY.md](RESOURCE_LIBRARY.md) for details on Aurelius Federal Platform integration.
+
 ## Citing garak
 
 You can read the [garak preprint paper](garak-paper.pdf). If you use garak, please cite us.
